@@ -1,3 +1,6 @@
+#### 5.3.5
+* add filter hook for developers to showcase plugins or themes on install page - @deviodigital
+
 #### 5.3.4
 * reset 'new_version' in update transient to avoid _up to date_ failure with branch switching.
 * fix display of branch switching themes on single install.

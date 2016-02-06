@@ -295,6 +295,13 @@ The second hook will simply make the Settings page unavailable.
 add_filter( 'github_updater_hide_settings', '__return_true' );
 ~~~
 
+There are two hooks available for developers to use to showcase their plugins or themes on the Install page. These filters should return a display of your showcased plugins or themes.
+
+~~~php
+add_filter( 'github_updater_showcase_plugins' );
+add_filter( 'github_updater_showcase_themes' );
+~~~
+
 ## Extras
 
 [szepeviktor](https://github.com/szepeviktor) has created an add-on plugin to GitHub Updater that identifies all plugins with an icon in the plugin view for GitHub or Bitbucket depending upon where they get updates. It's very clever.

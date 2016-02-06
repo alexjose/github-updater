@@ -214,6 +214,12 @@ class Install extends Base {
 	 */
 	public function create_form( $type ) {
 		$this->register_settings( $type );
+		if ( 'plugin' === $type ) {
+			echo apply_filters( 'github_updater_showcase_plugins', null );
+		}
+		if ( 'theme' === $type ) {
+			echo apply_filters( 'github_updater_showcase_themes', null );
+		}
 		?>
 		<form method="post">
 			<?php
