@@ -20,7 +20,7 @@
  * Text Domain:       github-updater
  * Network:           true
  * GitHub Plugin URI: https://github.com/afragen/github-updater
- * GitHub Branch:     dev-showcase-hooks
+ * GitHub Branch:     feature/dev-showcase-hooks
  * Requires WP:       3.8
  * Requires PHP:      5.3
  */
